@@ -4,8 +4,46 @@ namespace MethodExercise
 {
     class Program
     {
+        public static int Sum(int num1, int num2)
+        {
+            var answer = num1 + num2;
+            return answer;
+        }
+
+        public static int Subtract(int num1, int num2)
+        {
+            var answer = num1 - num2;
+            return answer;
+        }
+
+        public static int Multiply(int num1, int num2, int num3)
+        {
+            return num1 * num2 * num3;
+        }
+
+        public static int Divide(int num1, int num2)
+        {
+            var answer = num1 / num2;
+            return answer;
+        }
+
+        public static int Modulus(int num1, int num2)
+        {
+            var answer = num1 % num2;
+            return answer;
+        }
+
         static void Main(string[] args)
         {
+
+            var amountOfPowerups = Sum(2, 6);
+            var amountOfSun = Subtract(3, 12);
+            var amountOfZombies = Multiply(60, 2, 4);
+            var amountOfPlants = Divide(4, 14);
+            var amountOfCoins = Modulus(3, 30);
+
+            //----------------------Exercise 1--------------------------------------------------
+
             Console.WriteLine("Hello, what is your first name?");
             var userName = Console.ReadLine();
 
@@ -27,6 +65,10 @@ namespace MethodExercise
             Console.WriteLine($"We will even throw in a free {animal} costume.");
             Console.WriteLine("Also, for your first trip we will be sending you to");
             Console.WriteLine($"see {band} play the first live concert on Mars!");
+
+            //-----------------------Exercise 2-------------------------------------------------
+
+
         }
     }
 }
