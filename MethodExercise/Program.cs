@@ -18,13 +18,15 @@ namespace MethodExercise
             Console.WriteLine("Awesome! What is your favorite band?");
             var band = Console.ReadLine();
 
-            Console.WriteLine($"Thanks, {userName}! Here is your profile");
+            Console.WriteLine($"Thanks, {userName}!");
             Console.WriteLine("-------------------------------------");
-
-            Console.WriteLine($"Name: {userName}");
-            Console.WriteLine($"Favorite Color: {color}");
-            Console.WriteLine($"Favorite Animal: {animal}");
-            Console.WriteLine($"Favorite Band: {band}");
+            Console.WriteLine($"Congratulations, {userName}!");
+            Console.WriteLine("You have been selected to be the FIRST to recieve a brand");
+            Console.WriteLine("new Intergalactic Travel Portal.");
+            Console.WriteLine($"Your brand new portal will be in your favorite color, {color}.");
+            Console.WriteLine($"We will even throw in a free {animal} costume.");
+            Console.WriteLine("Also, for your first trip we will be sending you to");
+            Console.WriteLine($"see {band} play the first live concert on Mars!");
         }
     }
 }
